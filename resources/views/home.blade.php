@@ -3,7 +3,7 @@
 @section('content')
 <div class="row justify-content-center">
     <div class="col-md-8">
-        <div class="card">
+        <div id="faqCard" class="card">
             <div class="card-header">Dashboard <span class="float-right"><a href="/faqs/create" class="btn btn-primary">Create a New FaQ</a></span></div>
 
             <div class="card-body">

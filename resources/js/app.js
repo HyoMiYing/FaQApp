@@ -6,6 +6,8 @@
 
 require('./bootstrap');
 
+require('./dark-mode');
+
 window.Vue = require('vue');
 
 /**
