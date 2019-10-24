@@ -2,9 +2,9 @@
 
 @section('content')
 <div class="row justify-content-center">
-    <div class="col-md-8">
+    <div class="col-md-10">
         <div id="faqCard" class="card">
-            <div class="card-header">Edit a frequently asked question<span class="float-right"><a href="/home" class="btn btn-primary">Go Back</a></span></div>
+            <div class="card-header"><span class="float-left p-0 m-0 lead">Edit a FaQ</span><span class="float-right p-0 m-0"><a href="/home" class="btn btn-primary">Go Back</a></span></div>
 
             <div class="card-body">
                 @if (session('status'))
